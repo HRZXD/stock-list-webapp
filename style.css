@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@300&display=swap');
+
+*{
+    font-family: 'Pridi', serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    margin-top: 60px;
+    background-color: #efeeee;
+}
+.mtext{
+    font-weight: 500;
+}
+.form-contral{
+    margin: 1.5em;
+}
+.lb-name{
+    display: flex;
+    justify-content: center;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+.inp-form{
+    display: block;
+    padding: 6px;
+    width: 100%;
+    font-size: 16px;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn-submit{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 2.25em 0 1.5em;
+    background-color: #5F8D4E;
+    color: white;
+    cursor: pointer;
+}
+#lkstodoc{
+   display: block;
+   padding: 50px;
+}
+#lkstodoc a{
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Stock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="topic">
+        <h1 class="mtext">Stock List</h1>
+    </div>
+    <div id="mform">
+        <form method="post" id="form-mcontral">
+            <div class="form-contral">
+                <label for="pname" class="lb-name">Name</label>
+                <input type="text" name="name" class="inp-form" id="productn">
+            </div>
+            <div class="form-contral">
+                <label for="price" class="lb-name">Price</label>
+                <input type="number" name="price" class="inp-form" id="pricep">
+            </div>
+            <div class="form-contral">
+                <label for="apiece" class="lb-name">per piece / per kilogram / per gram</label>
+                <input type="text" name="per" class="inp-form" id="perpc">
+            </div>
+            <button class="btn-submit" id="btn-submit" name="submit" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="system.js"></script>
+    <div id="lkstodoc">
+        <a href="display.html" target="_blank">Press to watch list</a>
+    </div>
+</body>
+</html>
